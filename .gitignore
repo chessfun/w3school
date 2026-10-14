@@ -1,0 +1,8 @@
+# Temporary autosave Emacs files (example, #file.txt#)
+#*#
+
+# Backup Emacs copyes (example, file.txt~)
+*~
+
+# Blocking Emacs files (наприклад, .#file.txt)
+.#*
