@@ -6,3 +6,6 @@
 
 # Blocking Emacs files (example, .#file.txt)
 .#*
+
+# python cache dir
+**/__pycache__/
