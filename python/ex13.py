@@ -207,13 +207,13 @@ print_answer('list3 = list1 + list2')
 print_answer('list1.extend(list2)')
 
 
-prit('Consider the following code:')
+print('Consider the following code:')
 s = """list1 = ['a', 'b' , 'c']
 list2 = [1, 2, 3]
 for x in list2:
     list1.append(x)"""
 print(s + '\nWhat will be the value of list1?')
-print_answer('['a', 'b', 'c', 1, 2, 3]')
+print_answer("['a', 'b', 'c', 1, 2, 3]")
 
 
 ## Python Lists Code Challenge
