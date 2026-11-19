@@ -144,13 +144,13 @@ print_answer('Reverses the boolean value')
 print('Print "Hello" if a is equal to b, and c is equal to d.')
 s = """if a == b and c == d:
     print("Hello")"""
-print_anser(s)
+print_answer(s)
 
 
 print('Print "Hello" if a is equal to b, or if c is equal to d.')
 s = """if a == b or c == d:
     print("Hello")"""
-print_anser(s)
+print_answer(s)
 
 
 print('Use an if statement to print "YES" if either a or b is equal to c.')
@@ -159,7 +159,7 @@ b = 50
 c = 2
 if a == c or b == c:
     print("YES")"""
-print_anser(s)
+print_answer(s)
 
 
 ## Python Nested If
@@ -187,3 +187,23 @@ print_answer('To serve as a placeholder for future code')
 
 print('Can you use only a comment inside an if statement without pass?')
 print_answer('No, it will cause an error')
+
+
+## Code challenge
+print('\tPython If...Else Code Challenge\n')
+s = """Inside the editor, complete the following steps:
+1. Create a variable age with the value 20
+2. Write an if statement that prints \"Child\" if age is less than 13
+3. Add an elif that prints \"Teenager\" if age is less than 18
+4. Add an else that prints \"Adult\""""
+print(s)
+
+## Create age variable
+age = 20
+# Write if/elif/else
+if age < 13:
+    print("Child")
+elif age < 18:
+    print("Teenager")
+else:
+    print("Adult")
