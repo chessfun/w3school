@@ -39,9 +39,9 @@ s = """Inside the editor, complete the following steps:
 print(s)
 # Create the Student class
 class Student:
-  def __init__(self, name, grade):
-    self.name = name
-    self.grade = grade
+    def __init__(self, name, grade):
+        self.name = name
+        self.grade = grade
 
 # Create an object
 s1 = Student("Anna", "A")
